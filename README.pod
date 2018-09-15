@@ -26,6 +26,15 @@ Then install it:
 
     % make install
 
+=head2 Downloading the standalone executable
+
+You can also copy the standalone executable to whatever location you'd like.
+
+    % curl -o vl -L http://bit.ly/App-vl
+    % chmod +x vl
+
+NOTE: Edit shebang if you don't have /usr/bin/env
+
 
 =head1 DOCUMENTATION
 
