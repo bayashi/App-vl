@@ -30,7 +30,7 @@
          "requires" : {
             "Getopt::Long" : "2.42",
             "IO::Pager" : "0",
-            "Pod::Usage" : "0",
+            "Pod::Usage" : "1.30",
             "perl" : "5.008005",
             "strict" : "0",
             "warnings" : "0"
@@ -46,7 +46,7 @@
    "provides" : {
       "App::vl" : {
          "file" : "lib/App/vl.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -61,6 +61,6 @@
          "url" : "http://github.com/bayashi/App-vl"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }

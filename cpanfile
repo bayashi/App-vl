@@ -3,7 +3,7 @@ requires 'strict';
 requires 'warnings';
 
 requires 'Getopt::Long', '2.42';
-requires 'Pod::Usage';
+requires 'Pod::Usage', '1.30';
 requires 'IO::Pager';
 
 on 'test' => sub {

@@ -4,7 +4,7 @@ use warnings;
 use Getopt::Long qw/GetOptionsFromArray/;
 use IO::Pager;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub new {
     my $class = shift;
